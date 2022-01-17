@@ -1,9 +1,8 @@
 # curriclum_learning_using_clustering
 ## reproduce CIFAR-10 accuracy using UPANet
 ```bash
-cd UPANets
-python main.py
-python main.py  --use_clustering_curriculum
+python -m UPANets.main
+python -m  UPANets.main  --use_clustering_curriculum
 ```
 ## reproduce Tiny ImageNet using Densenet
 download Tiny ImageNet dataset
